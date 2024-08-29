@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.thebungler.sloppyspoof.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "sloppyspoof.refmap.json",
+  "mixins": [
+    "MixinModList"
+  ],
+  "client": [
+    "MixinModList"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
